@@ -1,0 +1,67 @@
+fun#42: Objective function = 2.7476
+fun#43: Objective function = 2.7476
+fun#44: Objective function = 2.7476
+fun#45: Objective function = 2.7476
+fun#46: Objective function = 2.7476
+fun#47: Objective function = 2.7476
+fun#48: Objective function = 2.7476
+fun#49: Objective function = 2.7476
+fun#50: Objective function = 2.7476
+fun#51: Objective function = 2.7476
+fun#52: Objective function = 2.7476
+fun#53: Objective function = 2.7476
+fun#54: Objective function = 2.7476
+fun#55: Objective function = 2.7476
+fun#56: Objective function = 2.7476
+fun#57: Objective function = 2.7476
+fun#58: Objective function = 2.7476
+fun#59: Objective function = 2.7476
+fun#60: Objective function = 2.7476
+Function evaluation failed for <bound method Vmec.aspect of Vmec1 (nfp=3 mpol=5 ntor=5)>
+Exception caught during function evaluation with J=8.870600119998776e+30. Returning J=20
+Function evaluation failed for <bound method Vmec.aspect of Vmec1 (nfp=3 mpol=5 ntor=5)>
+Exception caught during function evaluation with J=8.870600119998776e+30. Returning J=20
+Function evaluation failed for <bound method Vmec.aspect of Vmec1 (nfp=3 mpol=5 ntor=5)>
+Exception caught during function evaluation with J=8.870600119998776e+30. Returning J=20
+Function evaluation failed for <bound method Vmec.aspect of Vmec1 (nfp=3 mpol=5 ntor=5)>
+Exception caught during function evaluation with J=8.870600119998776e+30. Returning J=20
+Function evaluation failed for <bound method Vmec.aspect of Vmec1 (nfp=3 mpol=5 ntor=5)>
+Exception caught during function evaluation with J=8.870600119998776e+30. Returning J=20
+Function evaluation failed for <bound method Vmec.aspect of Vmec1 (nfp=3 mpol=5 ntor=5)>
+Exception caught during function evaluation with J=8.870600119998776e+30. Returning J=20
+Function evaluation failed for <bound method Vmec.aspect of Vmec1 (nfp=3 mpol=5 ntor=5)>
+Exception caught during function evaluation with J=8.870600119998776e+30. Returning J=20
+Exception caught during function evaluation with J=146.31087827513872. Returning J=20
+Exception caught during function evaluation with J=26.262289992334175. Returning J=20
+fun#70: Objective function = 5.9606
+fun#71: Objective function = 3.2940
+fun#72: Objective function = 2.8459
+Desired error not necessarily achieved due to precision loss.
+  Saving QH
+Aspect ratio after optimization: 13.176370847472684
+Mean iota after optimization: -0.8908671592485222
+Quasisymmetry objective after optimization: 0.006802899772774179
+Squared flux after optimization: 4.270961799796281e-05
+volavgB after optimization: 2.1369286324789427
+Coil parameters: ⟨B·n⟩=4.4e-03, B·n max=3.6e-02, ║∇J coils║=9.3e-04, C-C-Sep=0.08 lengths=sum([2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2])=15.5, curv=[7.0, 7.3, 6.3, 7.4, 6.1, 5.7, 5.4], msc=[14.1, 14.0, 14.1, 14.0, 14.3, 14.2, 14.1]
+  Saving QA
+Aspect ratio after optimization: 12.204551683034614
+Mean iota after optimization: 0.29526679700205066
+Quasisymmetry objective after optimization: 0.0034327386412264837
+Squared flux after optimization: 3.7068269048441835e-05
+volavgB after optimization: 1.3060100510596118
+Coil parameters: ⟨B·n⟩=4.0e-03, B·n max=1.6e-02, ║∇J coils║=9.3e-04, C-C-Sep=0.08 lengths=sum([2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2])=15.5, curv=[7.0, 7.3, 6.3, 7.4, 6.1, 5.7, 5.4], msc=[14.1, 14.0, 14.1, 14.0, 14.3, 14.2, 14.1]
+  Saving QH
+Aspect ratio after optimization: 13.176370847472684
+Mean iota after optimization: -0.8908671592485222
+Quasisymmetry objective after optimization: 0.006802899772774179
+Squared flux after optimization: 4.270961799796281e-05
+volavgB after optimization: 2.1369286324789427
+Coil parameters: ⟨B·n⟩=4.4e-03, B·n max=3.6e-02, ║∇J coils║=9.3e-04, C-C-Sep=0.08 lengths=sum([2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2])=15.5, curv=[7.0, 7.3, 6.3, 7.4, 6.1, 5.7, 5.4], msc=[14.1, 14.0, 14.1, 14.0, 14.3, 14.2, 14.1]
+  Saving QA
+Aspect ratio after optimization: 12.204551683034614
+Mean iota after optimization: 0.29526679700205066
+Quasisymmetry objective after optimization: 0.0034327386412264837
+Squared flux after optimization: 3.7068269048441835e-05
+volavgB after optimization: 1.3060100510596118
+Coil parameters: ⟨B·n⟩=4.0e-03, B·n max=1.6e-02, ║∇J coils║=9.3e-04, C-C-Sep=0.08 lengths=sum([2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2])=15.5, curv=[7.0, 7.3, 6.3, 7.4, 6.1, 5.7, 5.4], msc=[14.1, 14.0, 14.1, 14.0, 14.3, 14.2, 14.1]

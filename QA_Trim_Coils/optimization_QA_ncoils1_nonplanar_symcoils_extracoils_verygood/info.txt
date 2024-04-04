@@ -1,0 +1,85 @@
+###############################################
+  Performing optimization for max_mode=5
+###############################################
+Aspect ratio before optimization: 8.972089651144305
+Mean iota before optimization: 0.4126846008942909
+Quasisymmetry objective before optimization: 0.0014446094213604473
+Magnetic well before optimization: -0.013845215992912956
+Squared flux before optimization: 1.4502226002800263e-05
+  Performing stage 2 optimization with ~1000 iterations
+fun_coils#1 - J=1.5e-05, Jf=1.5e-05, max⟨B·n⟩/B=6.2e-03, ║∇J coils║=4.6e-03, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.1, 9.1]
+fun_coils#2 - J=2.3e+01, Jf=2.2e-01, max⟨B·n⟩/B=9.9e-01, ║∇J coils║=6.8e+01, C-C-Sep=0.01 lengths=sum([17.7, 4.2])=21.9, curv=[48.0, 87.0],msc=[14.9, 37.9]
+fun_coils#3 - J=1.5e-05, Jf=1.5e-05, max⟨B·n⟩/B=6.2e-03, ║∇J coils║=4.1e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.1, 9.1]
+fun_coils#4 - J=1.5e-05, Jf=1.5e-05, max⟨B·n⟩/B=6.2e-03, ║∇J coils║=3.7e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.1, 9.1]
+fun_coils#5 - J=1.5e-05, Jf=1.5e-05, max⟨B·n⟩/B=6.0e-03, ║∇J coils║=6.3e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.1, 9.1]
+fun_coils#6 - J=1.5e-05, Jf=1.5e-05, max⟨B·n⟩/B=6.1e-03, ║∇J coils║=2.2e-03, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[8.9, 9.0],msc=[4.0, 9.1]
+fun_coils#7 - J=1.5e-05, Jf=1.5e-05, max⟨B·n⟩/B=6.0e-03, ║∇J coils║=9.6e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.1, 9.1]
+fun_coils#8 - J=1.5e-05, Jf=1.5e-05, max⟨B·n⟩/B=6.0e-03, ║∇J coils║=6.5e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[8.9, 9.0],msc=[4.0, 9.1]
+fun_coils#9 - J=1.5e-05, Jf=1.5e-05, max⟨B·n⟩/B=6.0e-03, ║∇J coils║=4.1e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[8.9, 9.0],msc=[4.0, 9.1]
+fun_coils#10 - J=1.5e-05, Jf=1.5e-05, max⟨B·n⟩/B=6.0e-03, ║∇J coils║=4.9e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[8.9, 9.0],msc=[4.0, 9.1]
+fun_coils#11 - J=1.5e-05, Jf=1.5e-05, max⟨B·n⟩/B=6.0e-03, ║∇J coils║=5.8e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[8.9, 9.0],msc=[4.0, 9.1]
+fun_coils#12 - J=1.5e-05, Jf=1.5e-05, max⟨B·n⟩/B=6.1e-03, ║∇J coils║=5.2e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[8.9, 9.0],msc=[4.0, 9.1]
+fun_coils#13 - J=1.5e-05, Jf=1.5e-05, max⟨B·n⟩/B=6.2e-03, ║∇J coils║=2.5e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[8.9, 9.0],msc=[4.0, 9.1]
+fun_coils#14 - J=1.5e-05, Jf=1.5e-05, max⟨B·n⟩/B=6.3e-03, ║∇J coils║=3.4e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[8.9, 9.0],msc=[4.0, 9.1]
+fun_coils#15 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.3e-03, ║∇J coils║=4.3e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#16 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.2e-03, ║∇J coils║=4.3e-03, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#17 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.3e-03, ║∇J coils║=3.7e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#18 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.3e-03, ║∇J coils║=2.9e-02, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.1, 9.0],msc=[4.0, 9.1]
+fun_coils#19 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.3e-03, ║∇J coils║=3.7e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#20 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.3e-03, ║∇J coils║=1.8e-02, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.1, 9.0],msc=[4.0, 9.1]
+fun_coils#21 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.3e-03, ║∇J coils║=3.6e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#22 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.3e-03, ║∇J coils║=1.2e-02, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#23 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.3e-03, ║∇J coils║=3.5e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#24 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.3e-03, ║∇J coils║=2.0e-03, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#25 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.3e-03, ║∇J coils║=7.7e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#26 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.2e-03, ║∇J coils║=1.9e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#27 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.2e-03, ║∇J coils║=1.8e-03, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#28 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.3e-03, ║∇J coils║=7.0e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#29 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.4e-03, ║∇J coils║=4.5e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#30 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.6e-03, ║∇J coils║=1.4e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+fun_coils#31 - J=1.5e-05, Jf=1.4e-05, max⟨B·n⟩/B=6.6e-03, ║∇J coils║=1.4e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0],msc=[4.0, 9.1]
+  Performing single stage optimization with ~30 iterations
+fun#1: Objective function = 0.5573427304082539
+Function evaluation failed for <bound method make_optimizable.<locals>.TempOptimizable.J of <simsopt._core.optimizable.make_optimizable.<locals>.TempOptimizable object at 0x309220210>>
+Exception caught during function evaluation with J=4.436200029999401e+30. Returning J=28
+Function evaluation failed for <bound method make_optimizable.<locals>.TempOptimizable.J of <simsopt._core.optimizable.make_optimizable.<locals>.TempOptimizable object at 0x309220210>>
+Exception caught during function evaluation with J=4.436200029999401e+30. Returning J=28
+Function evaluation failed for <bound method make_optimizable.<locals>.TempOptimizable.J of <simsopt._core.optimizable.make_optimizable.<locals>.TempOptimizable object at 0x309220210>>
+Exception caught during function evaluation with J=4.436200029999401e+30. Returning J=28
+fun#5: Objective function = 7.363680658322583
+fun#6: Objective function = 0.5569904491404276
+fun#7: Objective function = 0.5566565939755268
+fun#8: Objective function = 0.5564578507036235
+fun#9: Objective function = 0.556227626161875
+fun#10: Objective function = 0.5561240831464765
+fun#11: Objective function = 0.556016030426737
+fun#12: Objective function = 0.5558825801556393
+fun#13: Objective function = 0.5557407787433826
+fun#14: Objective function = 0.5556869949058721
+fun#15: Objective function = 0.5556444649904794
+fun#16: Objective function = 0.5555747959678554
+fun#17: Objective function = 0.5555249662341145
+fun#18: Objective function = 0.5554537799927558
+fun#19: Objective function = 0.5554035166819927
+fun#20: Objective function = 0.5553330684519401
+fun#21: Objective function = 0.5552500227716982
+fun#22: Objective function = 0.5551544841443381
+fun#23: Objective function = 0.5550140548330998
+fun#24: Objective function = 0.5548943667941374
+fun#25: Objective function = 0.5547701023519399
+fun#26: Objective function = 0.5546098430464297
+fun#27: Objective function = 0.5544179709033394
+fun#28: Objective function = 0.5542085635625066
+fun#29: Objective function = 0.55393781367967
+fun#30: Objective function = 0.5535974587996957
+fun#31: Objective function = 0.5531685631288992
+fun#32: Objective function = 0.5527256551104445
+fun#33: Objective function = 0.5522350391176927
+fun#34: Objective function = 0.5519215937114104
+fun#35: Objective function = 0.5514342210504398
+Aspect ratio after optimization: 8.93338248251881
+Mean iota after optimization: 0.412628345741708
+Quasisymmetry objective after optimization: 0.001434202033113979
+Magnetic well after optimization: -0.014382585942578744
+Squared flux after optimization: 1.4620360406599752e-05
+Coil parameters: ⟨B·n⟩=1.4e-04, B·n max=4.3e-04, ║∇J coils║=7.0e-04, C-C-Sep=0.16 lengths=sum([4.5, 4.5])=9.0, curv=[9.0, 9.0], msc=[4.0, 9.1]

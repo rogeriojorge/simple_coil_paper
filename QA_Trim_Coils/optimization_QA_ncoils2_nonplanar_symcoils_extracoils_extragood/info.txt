@@ -1,0 +1,87 @@
+###############################################
+  Performing optimization for max_mode=5
+###############################################
+Aspect ratio before optimization: 9.298032305761092
+Mean iota before optimization: 0.41322150118828943
+Quasisymmetry objective before optimization: 0.0011763846784311187
+Magnetic well before optimization: -0.024954362958269076
+Squared flux before optimization: 1.90553594009906e-05
+  Performing stage 2 optimization with ~1000 iterations
+fun_coils#1 - J=1.9e-05, Jf=1.9e-05, max⟨B·n⟩/B=8.9e-03, ║∇J coils║=3.1e-04, C-C-Sep=0.20 lengths=sum([4.2, 4.2, 4.2])=12.6, curv=[9.0, 8.9, 8.3],msc=[9.0, 4.4, 9.0]
+fun_coils#2 - J=8.4e+00, Jf=4.4e-01, max⟨B·n⟩/B=1.0e+00, ║∇J coils║=7.6e+01, C-C-Sep=0.10 lengths=sum([8.9, 7.6, 7.0])=23.5, curv=[25.7, 20.6, 86.4],msc=[15.3, 12.6, 45.0]
+fun_coils#3 - J=1.9e-05, Jf=1.9e-05, max⟨B·n⟩/B=8.9e-03, ║∇J coils║=8.6e-03, C-C-Sep=0.20 lengths=sum([4.2, 4.2, 4.2])=12.6, curv=[9.0, 8.9, 8.3],msc=[9.0, 4.4, 9.0]
+fun_coils#4 - J=1.9e-05, Jf=1.9e-05, max⟨B·n⟩/B=8.9e-03, ║∇J coils║=1.3e-02, C-C-Sep=0.20 lengths=sum([4.2, 4.2, 4.2])=12.6, curv=[9.0, 9.0, 8.3],msc=[9.0, 4.4, 9.0]
+fun_coils#5 - J=1.9e-05, Jf=1.9e-05, max⟨B·n⟩/B=8.9e-03, ║∇J coils║=5.0e-02, C-C-Sep=0.20 lengths=sum([4.2, 4.2, 4.2])=12.6, curv=[9.0, 9.0, 8.3],msc=[9.0, 4.4, 9.0]
+fun_coils#6 - J=1.9e-05, Jf=1.9e-05, max⟨B·n⟩/B=8.9e-03, ║∇J coils║=3.4e-03, C-C-Sep=0.20 lengths=sum([4.2, 4.2, 4.2])=12.6, curv=[9.0, 9.0, 8.3],msc=[9.0, 4.4, 9.0]
+  Performing single stage optimization with ~30 iterations
+/Users/rogeriojorge/local/microstability_optimization/src/circular_coil_stellarator/./main.py:399: OptimizeWarning: Unknown solver options: maxfev, ftol
+  res = minimize(fun, dofs, args=(prob_jacobian, {'Nfeval': 0}), jac=True, method='BFGS', options={'maxiter': MAXITER_single_stage, 'maxfev': MAXFEV_single_stage, 'gtol': ftol, 'ftol': ftol}, tol=ftol)
+fun#1: Objective function = 0.634740096549329
+Function evaluation failed for <bound method make_optimizable.<locals>.TempOptimizable.J of <simsopt._core.optimizable.make_optimizable.<locals>.TempOptimizable object at 0x309054390>>
+Exception caught during function evaluation with J=4.436200029999401e+30. Returning J=28
+Function evaluation failed for <bound method make_optimizable.<locals>.TempOptimizable.J of <simsopt._core.optimizable.make_optimizable.<locals>.TempOptimizable object at 0x309054390>>
+Exception caught during function evaluation with J=4.436200029999401e+30. Returning J=28
+Function evaluation failed for <bound method make_optimizable.<locals>.TempOptimizable.J of <simsopt._core.optimizable.make_optimizable.<locals>.TempOptimizable object at 0x309054390>>
+Exception caught during function evaluation with J=4.436200029999401e+30. Returning J=28
+Exception caught during function evaluation with J=273.9954554547128. Returning J=28
+fun#6: Objective function = 0.6351368980957568
+fun#7: Objective function = 0.6347443644858235
+fun#8: Objective function = 0.6347106342032964
+fun#9: Objective function = 0.6346700543112569
+fun#10: Objective function = 0.634620465845063
+fun#11: Objective function = 0.6345604973171091
+fun#12: Objective function = 0.6345195375378911
+fun#13: Objective function = 0.634486256235023
+fun#14: Objective function = 0.6343808576606405
+fun#15: Objective function = 0.6343178238969082
+fun#16: Objective function = 0.6342948767806404
+fun#17: Objective function = 0.634288858132569
+fun#18: Objective function = 0.6342709739173995
+fun#19: Objective function = 0.6342754583668649
+fun#20: Objective function = 0.6342645668076919
+fun#21: Objective function = 0.6342561442649152
+fun#22: Objective function = 0.634251874456157
+fun#23: Objective function = 0.6342158938136933
+fun#24: Objective function = 0.6341617610946523
+fun#25: Objective function = 0.6344871084280509
+fun#26: Objective function = 0.6341945262053419
+fun#27: Objective function = 0.6342094531612168
+fun#28: Objective function = 0.6341967715383304
+fun#29: Objective function = 0.6341948747237405
+fun#30: Objective function = 0.6341946015975733
+fun#31: Objective function = 0.6341945426087845
+fun#32: Objective function = 0.6341945293923912
+fun#33: Objective function = 0.6341945268262646
+fun#34: Objective function = 0.6341945263239324
+fun#35: Objective function = 0.6341945262235866
+fun#36: Objective function = 0.634194526219842
+fun#37: Objective function = 0.6341945262084439
+fun#38: Objective function = 0.6341945262073767
+fun#39: Objective function = 0.6341945262040248
+fun#40: Objective function = 0.6341945261910675
+fun#41: Objective function = 0.6341945261997878
+fun#42: Objective function = 0.6341945262123035
+fun#43: Objective function = 0.6341945262069915
+fun#44: Objective function = 0.6341945261910675
+fun#45: Objective function = 0.6341945262012468
+fun#46: Objective function = 0.6341945261910675
+fun#47: Objective function = 0.6341945261984907
+fun#48: Objective function = 0.6341945261910675
+fun#49: Objective function = 0.6341945262088663
+fun#50: Objective function = 0.6341945261910675
+fun#51: Objective function = 0.6341945261910675
+fun#52: Objective function = 0.6341945261910675
+fun#53: Objective function = 0.6342094531612168
+fun#54: Objective function = 0.6342005800158693
+fun#55: Objective function = 0.6341965283569594
+fun#56: Objective function = 0.6341950629389381
+fun#57: Objective function = 0.6341947390772121
+fun#58: Objective function = 0.6341946137763941
+fun#59: Objective function = 0.6341945617934666
+fun#60: Objective function = 0.6341945406519327
+Aspect ratio after optimization: 9.299508872111506
+Mean iota after optimization: 0.41324142842300104
+Quasisymmetry objective after optimization: 0.001172620825024039
+Magnetic well after optimization: -0.024975655400436163
+Squared flux after optimization: 1.9002308268225866e-05
+Coil parameters: ⟨B·n⟩=5.7e-04, B·n max=2.0e-03, ║∇J coils║=7.8e-03, C-C-Sep=0.20 lengths=sum([4.2, 4.2, 4.2])=12.6, curv=[9.0, 9.0, 8.3], msc=[9.0, 4.4, 9.0]
