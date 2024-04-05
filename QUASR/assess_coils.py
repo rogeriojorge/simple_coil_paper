@@ -15,13 +15,16 @@ from simsopt.util import proc0_print, comm_world
 this_path = os.path.dirname(os.path.abspath(__file__))
 
 # id = "0793816"
-id = "0635650"
-ncoils = 1
+# ncoils = 1
+# id = "1327932"
+# ncoils = 2
+id = "1426796"
+ncoils = 2
 
-nfieldlines = 22
-tmax_fl = 2500 # 20000
+nfieldlines = 23
+tmax_fl = 3000 # 20000
 degree = 4
-extend_distance = -0.09 # 0.2
+extend_distance = -0.01 # 0.2
 nfieldlines_to_plot = 12
 print_surface = False
 
@@ -45,10 +48,12 @@ surf = SurfaceXYZTensorFourier(dofs=surf0.dofs, nfp=surf0.nfp, mpol=surf0.mpol, 
 surf.extend_via_normal(extend_distance)
 R_max = np.max(surf.gamma()[0,:,0])
 
-if id == "0793816":
-    R_axis = 1.004
+if id == "1327932":
+    R_axis = 0.791
 elif id == "0635650":
     R_axis = 0.954
+elif id == "1426796":
+    R_axis = 1.262
 # R_axis = surf.get_rc(0,0)
 
 proc0_print('Loading coils file')
