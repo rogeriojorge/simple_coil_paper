@@ -24,7 +24,8 @@ def main(file, OUT_DIR="."):
     Jmscs = [MeanSquaredCurvature(c) for c in curves]
     Jals = [ArclengthVariation(c) for c in curves]
 
-    outstr = f"C-C-Sep={Jccdist.shortest_distance():.2f}"
+    try: outstr = f"C-C-Sep={Jccdist.shortest_distance():.2f}"
+    except: outstr = ""
     cl_string = ", ".join([f"{j.J():.1f}" for j in Jls])
     kap_string = ", ".join(f"{np.max(c.kappa()):.1f}" for c in curves)
     msc_string = ", ".join(f"{j.J():.1f}" for j in Jmscs)
