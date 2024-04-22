@@ -15,7 +15,8 @@ def main(file, OUT_DIR="."):
     else: QA_or_QH = 'QA'
     qs = QuasisymmetryRatioResidual(vmec, quasisymmetry_target_surfaces, helicity_m=1, helicity_n=-1 if QA_or_QH == 'QH' else 0)
     print(f"Quasisymmetry objective: {qs.total()}")
-    print(f"Magnetic well before optimization: {vmec.vacuum_well()}")
+    print(f"Magnetic well : {vmec.vacuum_well()}")
+    print(f"Aspect ratio: {vmec.aspect()}")
 
 if __name__ == "__main__":
     # Create results folders if not present
