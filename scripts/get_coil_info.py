@@ -3,9 +3,10 @@ import sys
 import numpy as np
 from pathlib import Path
 from simsopt import load
-from simsopt.geo import (CurveLength, CurveCurveDistance, MeanSquaredCurvature, LpCurveCurvature, ArclengthVariation)
+from simsopt.geo import (CurveLength, CurveCurveDistance, MeanSquaredCurvature, SurfaceRZFourier,
+                         LpCurveCurvature, ArclengthVariation, CurveSurfaceDistance)
 
-def main(file, OUT_DIR="."):
+def main(file, vmec_input=None):
     try:
         bs = load(file)
         coils = bs.coils
@@ -30,6 +31,11 @@ def main(file, OUT_DIR="."):
     kap_string = ", ".join(f"{np.max(c.kappa()):.1f}" for c in curves)
     msc_string = ", ".join(f"{j.J():.1f}" for j in Jmscs)
     outstr += f" lengths=sum([{cl_string}])={sum(j.J() for j in Jls):.1f}, curv=[{kap_string}],msc=[{msc_string}]"
+    if vmec_input is not None:
+        s = SurfaceRZFourier.from_vmec_input(vmec_input, range="full torus", nphi=64, ntheta=64)
+        Jcsdist = CurveSurfaceDistance(curves, s, 0)
+        try:    outstr += f", C-S-Sep={Jcsdist.shortest_distance():.2f}"
+        except Exception as e: print(e);outstr += ""
     print(outstr)
     # print(f"Curve dofs={dir(curves[0])}")
     print(f"dofs local_full_dof_names = {curves[0].local_full_dof_names}")
@@ -37,10 +43,9 @@ def main(file, OUT_DIR="."):
     print(f"currents = {currents}")
 
 if __name__ == "__main__":
-    # Create results folders if not present
-    try:
-        Path(sys.argv[2]).mkdir(parents=True, exist_ok=True)
-        figures_results_path = str(Path(sys.argv[2]).resolve())
-        main(sys.argv[1], sys.argv[2])
-    except:
+    if len(sys.argv) == 2:
         main(sys.argv[1])
+    elif len(sys.argv) == 3:
+        main(sys.argv[1], sys.argv[2])
+    else:
+        print("Usage: python get_coil_info.py [coil json file] [vmec_input]")
