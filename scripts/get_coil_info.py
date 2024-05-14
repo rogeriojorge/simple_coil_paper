@@ -5,6 +5,7 @@ from pathlib import Path
 from simsopt import load
 from simsopt.geo import (CurveLength, CurveCurveDistance, MeanSquaredCurvature, SurfaceRZFourier,
                          LpCurveCurvature, ArclengthVariation, CurveSurfaceDistance)
+from simsopt.field import Current, Coil
 
 def main(file, vmec_input=None):
     try:
@@ -14,8 +15,14 @@ def main(file, vmec_input=None):
         try:
             [surfaces, base_curve, coils] = load(file)
         except:
-            bs = load(file).Bfields[0]
-            coils = bs.coils
+            try:
+                bs = load(file).Bfields[0]
+                coils = bs.coils
+            except:
+                base_curves = load(file)
+                base_currents = [Current(1) * 1e5]*len(base_curves)#, Current(1) * 1e5, Current(1) * 1e5, Current(1) * 1e5, Current(1) * 1e5, Current(1) * 1e5]
+                coils = [Coil(curv, curr) for (curv, curr) in zip(base_curves, base_currents)]
+                
     curves = [coils[i]._curve for i in range(len(coils))]
     currents = [coils[i].current.get_value() for i in range(len(coils))]
     # Jf = SquaredFlux(surf, bs, definition="local")
