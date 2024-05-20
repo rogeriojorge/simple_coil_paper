@@ -17,7 +17,7 @@ from simsopt.field import BiotSavart, Current, coils_via_symmetries, Coil
 from simsopt.objectives import SquaredFlux, QuadraticPenalty, LeastSquaresProblem
 from simsopt.geo import (CurveLength, CurveCurveDistance, MeanSquaredCurvature, SurfaceRZFourier, create_equally_spaced_planar_curves, CurveSurfaceDistance,
                          LpCurveCurvature, ArclengthVariation, curves_to_vtk, create_equally_spaced_curves, LinkingNumber, CurveHelical)
-from simsopt.geo.curvexyzhelical import CurveXYZHelical
+from simsopt.geo.curvexyzfouriersymmetries import CurveXYZFourierSymmetries
 from simsopt.geo.curvexyzfourier import CurveXYZFourier
 from simsopt.geo.curve import RotatedCurve
 from simsopt.field.coil import ScaledCurrent
@@ -130,14 +130,14 @@ surf_big = SurfaceRZFourier(dofs=surf.dofs, nfp=surf.nfp, mpol=surf.mpol, ntor=s
 ##########################################################################################
 #Stage 2
 if ncoils == 1:
-    base_curves = [CurveXYZHelical(np.linspace(0, 1, nquadpoints, endpoint=False), order_coils, surf.nfp, surf.stellsym)]
+    base_curves = [CurveXYZFourierSymmetries(np.linspace(0, 1, nquadpoints, endpoint=False), order_coils, surf.nfp, surf.stellsym)]
     base_curves[0].set('xc(0)', 1)
     base_curves[0].set(f'xc({int(l0_coil)})', ro_coil)
     base_curves[0].set(f'zs({int(l0_coil)})', ro_coil)
     coils = [Coil(base_curves[0], Current(1)*1e5)]
 elif ncoils==2:
-    base_curves = [CurveXYZHelical(np.linspace(0, 1, nquadpoints, endpoint=False), order_coils, surf.nfp, surf.stellsym),
-                   CurveXYZHelical(np.linspace(0, 1, nquadpoints, endpoint=False), order_coils, surf.nfp, surf.stellsym)]
+    base_curves = [CurveXYZFourierSymmetries(np.linspace(0, 1, nquadpoints, endpoint=False), order_coils, surf.nfp, surf.stellsym),
+                   CurveXYZFourierSymmetries(np.linspace(0, 1, nquadpoints, endpoint=False), order_coils, surf.nfp, surf.stellsym)]
     base_curves[1].set('xc(0)', 1)
     base_curves[1].set(f'xc({int(l0_coil)})', 1.4*ro_coil)
     base_curves[1].set(f'zs({int(l0_coil)})', 1.4*ro_coil)
