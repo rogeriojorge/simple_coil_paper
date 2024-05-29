@@ -151,8 +151,8 @@ def main(file,name='',figures_folder='.', coils_curves=None, s_plot_ignore=0.2,s
     plt.plot(s, iotaf, '.-',label='iota')
     # plt.plot(s_half, iotas[1:],'.-',label='iotas')
     # plt.legend(fontsize='x-small')
-    plt.xlabel(xLabel)
-    plt.ylabel(f'$\iota$')
+    plt.xlabel(xLabel, fontsize=12)
+    plt.ylabel(f'$\iota$', fontsize=16)
 
     plt.subplot(numRows,numCols,plotNum)
     plotNum += 1
