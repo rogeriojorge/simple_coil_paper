@@ -39,6 +39,7 @@ ax.set_yscale('log')
 plt.xlabel(r'$s=\psi/\psi_b$', fontsize=12)
 plt.ylabel(r'$\epsilon_{eff}$', fontsize=14)
 plt.xlim([0,1])
+plt.ylim([10, 1.1*max(eps_eff)])
 
 plt.tight_layout()
 fig.savefig(f'neo_out.pdf', dpi=fig.dpi)#, bbox_inches = 'tight', pad_inches = 0)
